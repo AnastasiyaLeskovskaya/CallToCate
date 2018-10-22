@@ -1,4 +1,4 @@
-package driver;
+//package driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -11,7 +11,8 @@ public class DriverSingleton {
    // private static final Logger logger = LogManager.getRootLogger();
     private static final String CHROME_DRIVER = "webdriver.chrome.driver";
    // private static final String CHROME_DRIVER_EXE_PATH = "C:\\Users\\Anastasiya_Leskovska\\WebDriver\\chromedriver_win32\\chromedriver.exe";
-   private static final String CHROME_DRIVER_EXE_PATH = "d:\\Idea\\Webdriver\\chromedriver_win32\\chromedriver.exe";
+  // private static final String CHROME_DRIVER_EXE_PATH = "d:\\Idea\\Webdriver\\chromedriver_win32\\chromedriver.exe";
+    private static final String CHROME_DRIVER_EXE_PATH = "C:\\Users\\Anastasiya_Leskovska\\WebDriver\\chromedriver_win32\\chromedriver.exe";
 
     private DriverSingleton(){};
 
